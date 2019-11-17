@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Alpha WEB</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/user.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="login.js"></script>
+</head>
+<body>
+    <center><h1>Connection With Slack Channel</h1></center></br></br</br></br>
+    <div class="container">
+        <div class="d-flex justify-content-center h-100">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Add Channel</h3>
+                </div>
+                    <form>
+                        <span id="hiddenchannel"></span>
+                        <span id="channel">
+                            <center>
+                                <label for="name"><b>Channel Name</b></label>
+                                <input type="text" placeholder="Channel For Slack" id="channelname" name="channelname" required>
+                            </center>
+                        </span>
+                        <div class="form-group">
+                            <center><input value="Add Channel" type="addbtn" id="addbtn" onclick="addChannel()"></center>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</body>
+</html>

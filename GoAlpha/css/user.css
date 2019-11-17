@@ -1,0 +1,92 @@
+html,body{
+	background: #60a3bc;
+	height: 100%;
+	font-family: 'Numans', sans-serif;
+}
+.container{
+	height: 35%;
+	align-content: center;
+}
+.card{
+	height: 33%;
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 33%;
+	background-color: rgba(0,0,0,0.5) !important;
+}
+#addbtn {
+	width: 50%;
+	background: #c0392b !important;
+	color: white !important;
+	text-align: center;
+}
+#addbtn:focus {
+	box-shadow: none !important;
+	outline: 0px !important;
+}
+form {border: 4px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+	width: 60%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+input[type=button]{
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 50%;
+}
+input[type=button]:hover{
+	background: linear-gradient(#4CAF50 5%, #00ff00 100%);
+}
+input[type=buttonreg]{
+	background-color: #943E2C;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 50%;
+}
+input[type=buttonreg]:hover{
+	background: linear-gradient(#943E2C 5%, #D5644C 100%);
+}
+input[type=addbtn]{
+	background-color: #A3247C;
+	width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 16px;
+    line-height: 1.33;
+}
+input[type=addbtn]:hover{
+	background: linear-gradient(#A3247C 5%, #C02590 100%);	
+}
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.user {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.password {
+  float: right;
+  padding-top: 16px;
+}
+#more {display: none;}
+#channel{display: none;}

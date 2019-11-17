@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Alpha WEB</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/user.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="login.js"></script>
+</head>
+<body>
+<h1><center>Welcome To Alpha Web</center><h1>
+<h2><center>User LogIn</center></h2>
+<form action="register()" method="post">
+  	<div class="imgcontainer">
+    <img src="images/user.png" alt="User" class="user">
+  </div>
+
+  <div class="container">
+    <center>
+		<label for="username"><b>Username</b></label>
+		<input type="text" placeholder="Enter Username" id="username" name="username" required>
+	</center>
+	</br>
+	<center>
+		<label for="password"><b>Password</b></label>
+		<input type="password" placeholder="Enter Password" id="password" name="password" required>
+	</center>
+        
+    <center><input value="Login" type="button" id="submit" onclick="validate()"/></center>
+	</br>
+	<span id="dots"></span>
+	<span id="more">
+		<center>
+			<label for="name"><b>Name</b></label>
+			<input type="text" placeholder="Enter Name" id="name" name="name" required>
+		</center>
+		</br>
+		<center>
+			<label for="username"><b>Surname</b></label>
+			<input type="text" placeholder="Enter Surname" id="surname" name="surname" required>
+		</center>
+		<center>
+			<label for="username"><b>Username</b></label>
+			<input type="text" placeholder="Enter username" id="usernamereg" name="usernamereg" required>
+		</center>
+		<center>
+			<label for="username"><b>Password</b></label>
+			<input type="text" placeholder="Enter Password" id="passwordreg" name="passwordreg" required>
+		</center>
+		</span>
+		<center><input value="Registration" type="buttonreg" id="submitreg" onclick="registrate()"/></center>
+  </div>
+</form>
+</body>
+</html>
